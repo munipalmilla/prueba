@@ -114,6 +114,8 @@ html{font-size:16px;overflow-x:hidden;text-rendering:optimizeLegibility;-webkit-
 .v-icon__svg{height:24px;width:24px;}
 .v-icon__svg{fill:currentColor;}
 /*! CSS Used from: Embedded */
+.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#e22c2c;z-index:999999;}
+/*! CSS Used from: Embedded */
 .v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
 .theme--dark.v-application{background:#121212;color:#fff;}
 .theme--dark.v-application .text--secondary{color:hsla(0,0%,100%,.7)!important;}
@@ -259,28 +261,6 @@ footer a:hover{color:hsla(0,0%,100%,.8)!important;text-decoration-color:hsla(0,0
 .v-application .success{background-color:#04a398!important;border-color:#04a398!important;}
 .v-application .secundario{background-color:#001c41!important;border-color:#001c41!important;}
 .v-application .fondo3{background-color:#263238!important;border-color:#263238!important;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
-/*! CSS Used from: Embedded */
-.v-application .text-slab{font-family:"Roboto Slab",serif!important;font-weight:400;}
 /*! CSS Used keyframes */
 @keyframes progress-circular-rotate{to{transform:rotate(1turn);}}
 @keyframes progress-circular-dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0px;}50%{stroke-dasharray:100,200;stroke-dashoffset:-15px;}to{stroke-dasharray:100,200;stroke-dashoffset:-124px;}}
